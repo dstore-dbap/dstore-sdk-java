@@ -69,6 +69,7 @@ dependencies {
     compile "io.grpc:grpc-grpclb:${grpcJavaVersion}"
     compile "com.google.protobuf:protobuf-java-util:${protobufVersion}"
     testCompile "io.netty:netty-tcnative-boringssl-static:1.1.33.Fork26"
+    compile 'org.json:json:20160810' // used for json to xml conversion
     testCompile 'org.testng:testng:6.9.6'
 }
 
