@@ -19,14 +19,29 @@ public class ChannelHelper {
 
     public static ManagedChannelImpl getSslChannel(String host, int port, String caFile) throws SSLException {
 
-        NettyChannelBuilder channelBuilder = NettyChannelBuilder.forAddress(host, port).negotiationType(NegotiationType.TLS);
+        NettyChannelBuilder channelBuilder;
+
+        // Do we have a match on an ip address? May be extendend to support ipv6 in future
+        if (host.matches("^(?:[0-9]{1,3}\\.){3}[0-9]{1,3}$"))
+            channelBuilder = NettyChannelBuilder.forAddress(host,port);
+        else
+            // DNS load-balancing is described here: https://github.com/grpc/grpc/blob/master/doc/load-balancing.md
+            channelBuilder = NettyChannelBuilder.forTarget("dns:///" + host + ":" + port);
+
+        setSsl(channelBuilder,caFile);
+
+        return channelBuilder.build();
+    }
+
+    private static NettyChannelBuilder setSsl (NettyChannelBuilder channelBuilder, String caFile) throws SSLException {
+
+        channelBuilder.negotiationType(NegotiationType.TLS);
 
         if (caFile != null)
             channelBuilder.sslContext(GrpcSslContexts.forClient().trustManager(ClassLoader.class.getResourceAsStream(caFile)).build());
         else
             channelBuilder.sslContext(GrpcSslContexts.forClient().trustManager(InsecureTrustManagerFactory.INSTANCE).build());
 
-        return channelBuilder.build();
+        return channelBuilder;
     }
-
 }

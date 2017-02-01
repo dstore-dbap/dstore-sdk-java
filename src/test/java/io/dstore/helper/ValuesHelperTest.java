@@ -1,4 +1,4 @@
-package io.dstore;
+package io.dstore.helper;
 
 import com.google.protobuf.util.Timestamps;
 import io.dstore.helper.ValuesHelper;
