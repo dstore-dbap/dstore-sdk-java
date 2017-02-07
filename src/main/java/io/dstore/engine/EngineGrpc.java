@@ -18,7 +18,7 @@ import static io.grpc.stub.ServerCalls.asyncUnimplementedStreamingCall;
 /**
  */
 @javax.annotation.Generated(
-    value = "by gRPC proto compiler (version 1.0.2)",
+    value = "by gRPC proto compiler (version 1.1.1)",
     comments = "Source: dstore/engine/engine_service.proto")
 public class EngineGrpc {
 
@@ -119,7 +119,7 @@ public class EngineGrpc {
       asyncUnimplementedUnaryCall(METHOD_IS_VALID_UNIQUE_ID, responseObserver);
     }
 
-    @java.lang.Override public io.grpc.ServerServiceDefinition bindService() {
+    @java.lang.Override public final io.grpc.ServerServiceDefinition bindService() {
       return io.grpc.ServerServiceDefinition.builder(getServiceDescriptor())
           .addMethod(
             METHOD_EXEC_PROCEDURE,
@@ -333,12 +333,31 @@ public class EngineGrpc {
     }
   }
 
-  public static io.grpc.ServiceDescriptor getServiceDescriptor() {
-    return new io.grpc.ServiceDescriptor(SERVICE_NAME,
-        METHOD_EXEC_PROCEDURE,
-        METHOD_EXEC_BATCH,
-        METHOD_CREATE_UNIQUE_ID,
-        METHOD_IS_VALID_UNIQUE_ID);
+  private static final class EngineDescriptorSupplier implements io.grpc.protobuf.ProtoFileDescriptorSupplier {
+    @java.lang.Override
+    public com.google.protobuf.Descriptors.FileDescriptor getFileDescriptor() {
+      return io.dstore.engine.EngineServiceOuterClass.getDescriptor();
+    }
   }
 
+  private static volatile io.grpc.ServiceDescriptor serviceDescriptor;
+
+  public static io.grpc.ServiceDescriptor getServiceDescriptor() {
+    io.grpc.ServiceDescriptor result = serviceDescriptor;
+    if (result == null) {
+      synchronized (EngineGrpc.class) {
+        result = serviceDescriptor;
+        if (result == null) {
+          serviceDescriptor = result = io.grpc.ServiceDescriptor.newBuilder(SERVICE_NAME)
+              .setSchemaDescriptor(new EngineDescriptorSupplier())
+              .addMethod(METHOD_EXEC_PROCEDURE)
+              .addMethod(METHOD_EXEC_BATCH)
+              .addMethod(METHOD_CREATE_UNIQUE_ID)
+              .addMethod(METHOD_IS_VALID_UNIQUE_ID)
+              .build();
+        }
+      }
+    }
+    return result;
+  }
 }

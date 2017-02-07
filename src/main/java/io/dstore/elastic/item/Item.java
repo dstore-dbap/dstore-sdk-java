@@ -304,9 +304,10 @@ public  final class Item extends
                 mutable_bitField0_ |= 0x00000040;
               }
               com.google.protobuf.MapEntry<java.lang.String, io.dstore.elastic.Field>
-              fields = input.readMessage(
+              fields__ = input.readMessage(
                   FieldsDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
-              fields_.getMutableMap().put(fields.getKey(), fields.getValue());
+              fields_.getMutableMap().put(
+                  fields__.getKey(), fields__.getValue());
               break;
             }
           }
@@ -551,15 +552,12 @@ public  final class Item extends
       for (int i = 0; i < predecessorTreeNodeId_.size(); i++) {
         output.writeInt32NoTag(predecessorTreeNodeId_.get(i));
       }
-      for (java.util.Map.Entry<java.lang.String, io.dstore.elastic.Field> entry
-           : internalGetFields().getMap().entrySet()) {
-        com.google.protobuf.MapEntry<java.lang.String, io.dstore.elastic.Field>
-        fields = FieldsDefaultEntryHolder.defaultEntry.newBuilderForType()
-            .setKey(entry.getKey())
-            .setValue(entry.getValue())
-            .build();
-        output.writeMessage(20, fields);
-      }
+      com.google.protobuf.GeneratedMessageV3
+        .serializeStringMapTo(
+          output,
+          internalGetFields(),
+          FieldsDefaultEntryHolder.defaultEntry,
+          20);
     }
 
     public int getSerializedSize() {
@@ -603,12 +601,12 @@ public  final class Item extends
       for (java.util.Map.Entry<java.lang.String, io.dstore.elastic.Field> entry
            : internalGetFields().getMap().entrySet()) {
         com.google.protobuf.MapEntry<java.lang.String, io.dstore.elastic.Field>
-        fields = FieldsDefaultEntryHolder.defaultEntry.newBuilderForType()
+        fields__ = FieldsDefaultEntryHolder.defaultEntry.newBuilderForType()
             .setKey(entry.getKey())
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(20, fields);
+            .computeMessageSize(20, fields__);
       }
       memoizedSize = size;
       return size;

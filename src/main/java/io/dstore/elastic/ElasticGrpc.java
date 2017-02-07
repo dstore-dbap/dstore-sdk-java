@@ -18,7 +18,7 @@ import static io.grpc.stub.ServerCalls.asyncUnimplementedStreamingCall;
 /**
  */
 @javax.annotation.Generated(
-    value = "by gRPC proto compiler (version 1.0.2)",
+    value = "by gRPC proto compiler (version 1.1.1)",
     comments = "Source: dstore/elastic/elastic_service.proto")
 public class ElasticGrpc {
 
@@ -103,7 +103,7 @@ public class ElasticGrpc {
       asyncUnimplementedUnaryCall(METHOD_ITEM_EXPORT, responseObserver);
     }
 
-    @java.lang.Override public io.grpc.ServerServiceDefinition bindService() {
+    @java.lang.Override public final io.grpc.ServerServiceDefinition bindService() {
       return io.grpc.ServerServiceDefinition.builder(getServiceDescriptor())
           .addMethod(
             METHOD_ITEM_GET,
@@ -291,11 +291,30 @@ public class ElasticGrpc {
     }
   }
 
-  public static io.grpc.ServiceDescriptor getServiceDescriptor() {
-    return new io.grpc.ServiceDescriptor(SERVICE_NAME,
-        METHOD_ITEM_GET,
-        METHOD_ITEM_SUGGEST,
-        METHOD_ITEM_EXPORT);
+  private static final class ElasticDescriptorSupplier implements io.grpc.protobuf.ProtoFileDescriptorSupplier {
+    @java.lang.Override
+    public com.google.protobuf.Descriptors.FileDescriptor getFileDescriptor() {
+      return io.dstore.elastic.ElasticServiceOuterClass.getDescriptor();
+    }
   }
 
+  private static volatile io.grpc.ServiceDescriptor serviceDescriptor;
+
+  public static io.grpc.ServiceDescriptor getServiceDescriptor() {
+    io.grpc.ServiceDescriptor result = serviceDescriptor;
+    if (result == null) {
+      synchronized (ElasticGrpc.class) {
+        result = serviceDescriptor;
+        if (result == null) {
+          serviceDescriptor = result = io.grpc.ServiceDescriptor.newBuilder(SERVICE_NAME)
+              .setSchemaDescriptor(new ElasticDescriptorSupplier())
+              .addMethod(METHOD_ITEM_GET)
+              .addMethod(METHOD_ITEM_SUGGEST)
+              .addMethod(METHOD_ITEM_EXPORT)
+              .build();
+        }
+      }
+    }
+    return result;
+  }
 }

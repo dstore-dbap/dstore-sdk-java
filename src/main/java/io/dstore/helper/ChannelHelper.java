@@ -1,5 +1,6 @@
 package io.dstore.helper;
 
+import io.grpc.ManagedChannel;
 import io.grpc.internal.ManagedChannelImpl;
 import io.grpc.netty.GrpcSslContexts;
 import io.grpc.netty.NegotiationType;
@@ -13,11 +14,11 @@ import javax.net.ssl.SSLException;
  */
 public class ChannelHelper {
 
-    public static ManagedChannelImpl getSslChannel(String host, int port) throws SSLException {
+    public static ManagedChannel getSslChannel(String host, int port) throws SSLException {
         return getSslChannel(host, port, null);
     }
 
-    public static ManagedChannelImpl getSslChannel(String host, int port, String caFile) throws SSLException {
+    public static ManagedChannel getSslChannel(String host, int port, String caFile) throws SSLException {
 
         NettyChannelBuilder channelBuilder;
 

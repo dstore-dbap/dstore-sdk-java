@@ -1884,9 +1884,10 @@ public final class Procedure {
                 mutable_bitField0_ |= 0x00000008;
               }
               com.google.protobuf.MapEntry<java.lang.String, io.dstore.values.Value>
-              outputParameters = input.readMessage(
+              outputParameters__ = input.readMessage(
                   OutputParametersDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
-              outputParameters_.getMutableMap().put(outputParameters.getKey(), outputParameters.getValue());
+              outputParameters_.getMutableMap().put(
+                  outputParameters__.getKey(), outputParameters__.getValue());
               break;
             }
             case 58: {
@@ -2056,9 +2057,10 @@ public final class Procedure {
                   mutable_bitField0_ |= 0x00000002;
                 }
                 com.google.protobuf.MapEntry<java.lang.String, io.dstore.values.Value>
-                columns = input.readMessage(
+                columns__ = input.readMessage(
                     ColumnsDefaultEntryHolder.defaultEntry.getParserForType(), extensionRegistry);
-                columns_.getMutableMap().put(columns.getKey(), columns.getValue());
+                columns_.getMutableMap().put(
+                    columns__.getKey(), columns__.getValue());
                 break;
               }
             }
@@ -2212,15 +2214,12 @@ public final class Procedure {
         if (rowId_ != 0) {
           output.writeInt32(1, rowId_);
         }
-        for (java.util.Map.Entry<java.lang.String, io.dstore.values.Value> entry
-             : internalGetColumns().getMap().entrySet()) {
-          com.google.protobuf.MapEntry<java.lang.String, io.dstore.values.Value>
-          columns = ColumnsDefaultEntryHolder.defaultEntry.newBuilderForType()
-              .setKey(entry.getKey())
-              .setValue(entry.getValue())
-              .build();
-          output.writeMessage(2, columns);
-        }
+        com.google.protobuf.GeneratedMessageV3
+          .serializeStringMapTo(
+            output,
+            internalGetColumns(),
+            ColumnsDefaultEntryHolder.defaultEntry,
+            2);
       }
 
       public int getSerializedSize() {
@@ -2235,12 +2234,12 @@ public final class Procedure {
         for (java.util.Map.Entry<java.lang.String, io.dstore.values.Value> entry
              : internalGetColumns().getMap().entrySet()) {
           com.google.protobuf.MapEntry<java.lang.String, io.dstore.values.Value>
-          columns = ColumnsDefaultEntryHolder.defaultEntry.newBuilderForType()
+          columns__ = ColumnsDefaultEntryHolder.defaultEntry.newBuilderForType()
               .setKey(entry.getKey())
               .setValue(entry.getValue())
               .build();
           size += com.google.protobuf.CodedOutputStream
-              .computeMessageSize(2, columns);
+              .computeMessageSize(2, columns__);
         }
         memoizedSize = size;
         return size;
@@ -2955,15 +2954,12 @@ public final class Procedure {
       for (int i = 0; i < row_.size(); i++) {
         output.writeMessage(5, row_.get(i));
       }
-      for (java.util.Map.Entry<java.lang.String, io.dstore.values.Value> entry
-           : internalGetOutputParameters().getMap().entrySet()) {
-        com.google.protobuf.MapEntry<java.lang.String, io.dstore.values.Value>
-        outputParameters = OutputParametersDefaultEntryHolder.defaultEntry.newBuilderForType()
-            .setKey(entry.getKey())
-            .setValue(entry.getValue())
-            .build();
-        output.writeMessage(6, outputParameters);
-      }
+      com.google.protobuf.GeneratedMessageV3
+        .serializeStringMapTo(
+          output,
+          internalGetOutputParameters(),
+          OutputParametersDefaultEntryHolder.defaultEntry,
+          6);
       for (int i = 0; i < metaInformation_.size(); i++) {
         output.writeMessage(7, metaInformation_.get(i));
       }
@@ -2989,12 +2985,12 @@ public final class Procedure {
       for (java.util.Map.Entry<java.lang.String, io.dstore.values.Value> entry
            : internalGetOutputParameters().getMap().entrySet()) {
         com.google.protobuf.MapEntry<java.lang.String, io.dstore.values.Value>
-        outputParameters = OutputParametersDefaultEntryHolder.defaultEntry.newBuilderForType()
+        outputParameters__ = OutputParametersDefaultEntryHolder.defaultEntry.newBuilderForType()
             .setKey(entry.getKey())
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(6, outputParameters);
+            .computeMessageSize(6, outputParameters__);
       }
       for (int i = 0; i < metaInformation_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
